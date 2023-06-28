@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/activity_branco"
+    tools:context=".ActivityExplica01">
+
+    <TextView
+        android:id="@+id/txtViewExplica01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="O Substantivo é uma classe gramatical da lígua  portuguesa que é responsável por nomear seres, objetos, lugares, etc. Existem 9 tipos de substantivos: comum, próprio, coletivo, abstrato, concreto, composto, simples, derivado e primitivo. E eles são flexionados em gênero, número e grau."
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/btnProximoExplica01"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Próximo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewExplica01" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
